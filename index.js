@@ -4,6 +4,9 @@ const robots = {
 }
 
 async function start() {
+=======
+
+function start() {
   const content = {}
 
   content.searchTerm = askAndReturnSearchTerm()
@@ -11,6 +14,7 @@ async function start() {
 
   await robots.text(content)
 
+=======
   function askAndReturnSearchTerm() {
     return readline.question('Type a Wikipedia search term: ')
   }
@@ -24,6 +28,8 @@ async function start() {
   }
 
 console.log(content);
+=======
+  console.log(content)
 
 }
 

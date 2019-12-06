@@ -8,11 +8,13 @@ async function start() {
     maximumSentences: 7
   }
 
+
   content.searchTerm = askAndReturnSearchTerm()
   content.prefix = askAndReturnPrefix()
 
   await robots.text(content)
 
+=======
   function askAndReturnSearchTerm() {
     return readline.question('Type a Wikipedia search term: ')
   }
@@ -26,6 +28,7 @@ async function start() {
   }
 
   console.log(JSON.stringify(content, null, 4))
+
 }
 
 start()

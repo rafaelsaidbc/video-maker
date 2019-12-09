@@ -1,18 +1,27 @@
 {
   "name": "video-maker",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "Projeto open source para fazer vídeos automatizados",
+=======
+  "description": "Projeto open source para fazer vídeos, baseado no canal do Youtube do Filipe Deschamps",
+>>>>>>> bf7efb10e58deb4b197b9f313ff1b0ad0712ddd2
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/filipedeschamps/video-maker.git"
+=======
+    "url": "git+https://github.com/rafaelsaidbc/video-maker.git"
+>>>>>>> bf7efb10e58deb4b197b9f313ff1b0ad0712ddd2
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/filipedeschamps/video-maker/issues"
   },
   "homepage": "https://github.com/filipedeschamps/video-maker#readme",
@@ -22,5 +31,12 @@
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.14",
     "watson-developer-cloud": "^3.18.2"
+=======
+    "url": "https://github.com/rafaelsaidbc/video-maker/issues"
+  },
+  "homepage": "https://github.com/rafaelsaidbc/video-maker#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+>>>>>>> bf7efb10e58deb4b197b9f313ff1b0ad0712ddd2
   }
 }

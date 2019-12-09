@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const google = require('googleapis').google
 const customSearch = google.customsearch('v1')
 const state = require('./state.js')
@@ -36,6 +37,13 @@ async function robot() {
     return imagesUrl
   }
 
+=======
+const state = require('./state.js')
+
+async function robot() {
+  const content = state.load()
+
+>>>>>>> bf7efb10e58deb4b197b9f313ff1b0ad0712ddd2
 }
 
 module.exports = robot

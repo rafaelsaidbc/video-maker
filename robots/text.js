@@ -15,11 +15,12 @@ const state = require('./state.js')
 
 async function robot() {
   const content = state.load()
-<<<<<<< HEAD
-=======
-=======
-async function robot(content) {
->>>>>>> bf7efb10e58deb4b197b9f313ff1b0ad0712ddd2
+
+  await fetchContentFromWikipedia(content)
+  sanitizeContent(content)
+  breakContentIntoSentences(content)
+  limitMaximumSentences(content)
+  await fetchKeywordsOfAllSentences(content)
 
   state.save(content)
 
